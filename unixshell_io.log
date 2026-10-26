@@ -1,3 +1,3 @@
 Script started on 2026-10-26 17:02:20+01:00 [TERM="tmux-256color" TTY="/dev/pts/4" COLUMNS="85" LINES="78"]
                                                                                      [0m[27m[24m[J(base) [32m┌──([1m[32m[34mjonas@debian[0m[34m[32m)-[[1m[32m[39m~/demo[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7mgit -C ~/autopush_notes log --oneline -3[27m[40D[27mg[27mi[27mt[27m [27m-[27mC[27m [27m~[27m/[27ma[27mu[27mt[27mo[27mp[27mu[27ms[27mh[27m_[27mn[27mo[27mt[27me[27ms[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m3

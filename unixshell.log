@@ -17,3 +17,5 @@ git status
 curl -fsSL "https://hackmd.io/@niesjo/HJaOqyphze/download" -o ~/autopush_notes/hackmd.md
 cat ~/autopush_notes/hackmd.md
 ls
+PAD_URL="https://hackmd.io/AbCdEfGhIjK"
+while true; do   curl -fsSL "$PAD_URL/download" -o ~/autopush_notes/hackmd.md;   sleep 60; done

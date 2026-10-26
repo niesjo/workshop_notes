@@ -347,6 +347,26 @@ AUTHOR
 
 4.2 Berkeley Distribution           Jan 18, 2001                               SL(6)
  Manual page sl(6) line 1/36 (END) (press h for help or q to quit)
->nelle@debian:~/demo$  less man
+>nelle@debian:~/demo$  less man sl
+
+man: No such file or directory
+sl: No such file or directory
+nelle@debian:~/demo$ less sl
+
+sl: No such file or directory
+nelle@debian:~/demo$ which sl
+
+/usr/games/sl
+nelle@debian:~/demo$ which ll
+
+nelle@debian:~/demo$ which ls
+
+/usr/bin/ls
+nelle@debian:~/demo$ which bash
+
+/usr/bin/bash
+nelle@debian:~/demo$ clear
+
+nelle@debian:~/demo$
 ```
 <!-- instructor:end -->

@@ -1,0 +1,6 @@
+whoami
+ls -l
+touch data.txt
+ls -l
+echo "hello carpentries" > data.txt
+cat data.txt

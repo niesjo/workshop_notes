@@ -52,3 +52,4 @@ for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"
 export NOTE_ID=<22-char-id-from-step-3>
 # ── 5) Start the bridge (leave it running — this is your new T4)
 python3 ~/pad_bridge.py
+read -rs HMD_TOKEN && export HMD_TOKEN

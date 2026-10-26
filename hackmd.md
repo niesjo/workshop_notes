@@ -24,6 +24,16 @@ nelle@debian:~/demo$ pwd
 nelle@debian:~/demo$ reset
 
 c
-nelle@debian:~/demo$ ls -Fa
+nelle@debian:~/demo$ ls -Fahlst
+
+total 8.0K
+4.0K drwx------ 18 nelle nelle 4.0K Oct 26 18:18 ../
+4.0K drwxrwxr-x  2 nelle nelle 4.0K Oct 26 18:10 ./
+nelle@debian:~/demo$ ls -Fahlstr
+
+total 8.0K
+4.0K drwxrwxr-x  2 nelle nelle 4.0K Oct 26 18:10 ./
+4.0K drwx------ 18 nelle nelle 4.0K Oct 26 18:18 ../
+nelle@debian:~/demo$
 ```
 <!-- instructor:end -->

@@ -1,2 +1,6 @@
 Script started on 2026-10-26 18:10:37+01:00 [TERM="tmux-256color" TTY="/dev/pts/5" COLUMNS="85" LINES="44"]
-[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ asdf
+[?2004lbash: asdf: command not found
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ll
+[?2004lbash: ll: command not found
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ls

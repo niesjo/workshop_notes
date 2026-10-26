@@ -7,4 +7,5 @@ Script started on 2026-10-26 18:10:37+01:00 [TERM="tmux-256color" TTY="/dev/pts/
 [?2004l[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ll
 [?2004lbash: ll: command not found
 [?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ls
+[?2004l[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ls
 [?2004l[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 

@@ -18,6 +18,6 @@ nelle@debian:~/demo$ ls
 
 nelle@debian:~/demo$ ls
 
-nelle@debian:~/demo$
+nelle@debian:~/demo$ pwd
 ```
 <!-- instructor:end -->

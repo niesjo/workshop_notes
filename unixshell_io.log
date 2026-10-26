@@ -11,4 +11,8 @@ Script started on 2026-10-26 18:10:37+01:00 [TERM="tmux-256color" TTY="/dev/pts/
 [?2004l[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ pwd
 [?2004l/home/nelle/demo
 [?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ reset
-[?2004lc[?1000l[?25h[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 
+[?2004lc[?1000l[?25h[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ls -Fahlst
+[?2004ltotal 8.0K
+4.0K drwx------ 18 nelle nelle 4.0K Oct 26 18:18 [0m[01;34m..[0m/
+4.0K drwxrwxr-x  2 nelle nelle 4.0K Oct 26 18:10 [01;34m.[0m/
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 

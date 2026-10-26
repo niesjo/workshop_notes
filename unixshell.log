@@ -25,3 +25,5 @@ PAD_URL="https://hackmd.io/@niesjo/HJaOqyphze"
 while true; do   /usr/bin/curl -fsSL "$PAD_URL/download" -o ~/autopush_notes/hackmd.md;   sleep 30; done
 asdf
 ls
+cat ~/autopush_notes/hackmd.md                # should show the note content
+git -C ~/autopush_notes log --oneline -3     # gitautopush should have committed it

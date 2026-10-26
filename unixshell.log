@@ -21,3 +21,5 @@ PAD_URL="https://hackmd.io/AbCdEfGhIjK"
 while true; do   curl -fsSL "$PAD_URL/download" -o ~/autopush_notes/hackmd.md;   sleep 60; done
 PAD_URL="https://hackmd.io/@niesjo/HJaOqyphze"
 while true; do   /usr/bin/curl -fsSL "$PAD_URL/download" -o ~/autopush_notes/hackmd.md;   sleep 30; done
+PAD_URL="https://hackmd.io/@niesjo/HJaOqyphze"
+while true; do   /usr/bin/curl -fsSL "$PAD_URL/download" -o ~/autopush_notes/hackmd.md;   sleep 30; done

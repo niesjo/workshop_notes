@@ -34,3 +34,5 @@ read -rs HMD_TOKEN && export HMD_TOKEN    # keeps it out of history
 # list my notes to find the API noteId of the pad:
 /usr/bin/curl -s https://api.hackmd.io/v1/notes   -H "Authorization: Bearer $4EV6ETF46E5VFLFSTER4LANNSY13DAG89WQAK0VZHENTNCU5EP" |   python3 -c "import json,sys
 for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"
+/usr/bin/curl -s https://api.hackmd.io/v1/notes   -H "Authorization: Bearer $4EV6ETF46E5VFLFSTER4LANNSY13DAG89WQAK0VZHENTNCU5EP" |   python3 -c "import json,sys
+for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"

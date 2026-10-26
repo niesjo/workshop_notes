@@ -12,3 +12,4 @@ unset HISTTIMEFORMAT
 pwd        # must show /home/jonas/demo
 echo "ps1-test"
 tail -1 ~/.bash_history    # must show: ps1-test
+echo "PROMPT_COMMAND=$PROMPT_COMMAND"

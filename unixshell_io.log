@@ -114,4 +114,7 @@ Script started on 2026-10-26 18:10:37+01:00 [TERM="tmux-256color" TTY="/dev/pts/
 sl: No such file or directory
 [?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ less sl
 [?2004lsl: No such file or directory
-[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ which sl
+[?2004l/usr/games/sl
+[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ which ll
+[?2004l[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ whic

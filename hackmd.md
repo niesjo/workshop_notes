@@ -19,5 +19,11 @@ nelle@debian:~/demo$ ls
 nelle@debian:~/demo$ ls
 
 nelle@debian:~/demo$ pwd
+
+/home/nelle/demo
+nelle@debian:~/demo$ reset
+
+c
+nelle@debian:~/demo$ ls -Fa
 ```
 <!-- instructor:end -->

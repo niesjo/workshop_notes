@@ -14,3 +14,5 @@ echo "ps1-test"
 tail -1 ~/.bash_history    # must show: ps1-test
 echo "PROMPT_COMMAND=$PROMPT_COMMAND"
 git status
+curl -fsSL "https://hackmd.io/@niesjo/HJaOqyphze/download" -o ~/autopush_notes/hackmd.md
+cat ~/autopush_notes/hackmd.md

@@ -122,4 +122,4 @@ sl: No such file or directory
 [?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ which bash
 [?2004l/usr/bin/bash
 [?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ clear
-[?2004l[H[J[3J[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ 
+[?2004l[H[J[3J[?2004h[01;32mnelle@debian[00m:[01;34m~/demo[00m$ ex

@@ -5,3 +5,7 @@ ls -l
 echo "hello carpentries" > data.txt
 cat data.txt
 reset
+mkdir -p ~/demo && cd ~/demo
+PS1='$ '
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+unset HISTTIMEFORMAT

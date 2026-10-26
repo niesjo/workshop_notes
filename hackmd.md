@@ -34,6 +34,6 @@ nelle@debian:~/demo$ ls -Fahlstr
 total 8.0K
 4.0K drwxrwxr-x  2 nelle nelle 4.0K Oct 26 18:10 ./
 4.0K drwx------ 18 nelle nelle 4.0K Oct 26 18:18 ../
-nelle@debian:~/demo$
+nelle@debian:~/demo$ lsman las
 ```
 <!-- instructor:end -->

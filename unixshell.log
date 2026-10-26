@@ -16,3 +16,4 @@ echo "PROMPT_COMMAND=$PROMPT_COMMAND"
 git status
 curl -fsSL "https://hackmd.io/@niesjo/HJaOqyphze/download" -o ~/autopush_notes/hackmd.md
 cat ~/autopush_notes/hackmd.md
+ls

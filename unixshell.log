@@ -9,3 +9,6 @@ mkdir -p ~/demo && cd ~/demo
 PS1='$ '
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 unset HISTTIMEFORMAT
+pwd        # must show /home/jonas/demo
+echo "ps1-test"
+tail -1 ~/.bash_history    # must show: ps1-test

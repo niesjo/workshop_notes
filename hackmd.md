@@ -307,6 +307,46 @@ _|
 |_
 __M
 >
-nelle@debian:~/demo$
+nelle@debian:~/demo$ man sl
+
+=
+SL(6)                               Games Manual                               SL(6)
+
+NAME
+       sl  - display animations aimed to correct users who accidentally enter sl in‐
+       stead of ls.
+
+SYNOPSIS
+       sl [ -alFe ]
+
+DESCRIPTION
+       sl Displays animations aimed to correct users who accidentally enter  sl  in‐
+       stead of ls.  SL stands for Steam Locomotive.
+
+OPTIONS
+       -a     An  accident  seems to happen. You'll feel pity for people who cry for
+              help.
+
+       -l     shows little one.
+
+       -F     It flies.
+
+       -e     Allow interrupt by Ctrl+C.
+
+SEE ALSO
+       ls(1)
+
+BUGS
+       It rarely shows contents of current directory.
+
+AUTHOR
+       sl was written by Toyoda Masashi <toyoda@is.titech.ac.jp>. This  manual  page
+       was written by Brian Ristuccia <brianr@debian.org> and Kenshi Muto <kmuto@de‐
+       bian.org> for the Debian GNU/Linux system but may be used by others under the
+       same license as sl itself.
+
+4.2 Berkeley Distribution           Jan 18, 2001                               SL(6)
+ Manual page sl(6) line 1/36 (END) (press h for help or q to quit)
+>nelle@debian:~/demo$  less man
 ```
 <!-- instructor:end -->

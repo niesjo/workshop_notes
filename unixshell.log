@@ -36,3 +36,19 @@ read -rs HMD_TOKEN && export HMD_TOKEN    # keeps it out of history
 for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"
 /usr/bin/curl -s https://api.hackmd.io/v1/notes   -H "Authorization: Bearer $4EV6ETF46E5VFLFSTER4LANNSY13DAG89WQAK0VZHENTNCU5EP" |   python3 -c "import json,sys
 for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"
+# ── 0) In the browser (once): hackmd.io → Settings → API → create token
+#    name it anything (e.g. "pad-bridge"), copy the token string it shows ONCE.
+#    Also make sure the pad contains the two markers:
+#      <!-- instructor:start -->
+#      <!-- instructor:end -->
+# ── 1) In the terminal: load the token (paste when prompted, then Enter)
+read -rs HMD_TOKEN && export HMD_TOKEN
+# ── 2) Sanity check: should print your account JSON
+/usr/bin/curl -s https://api.hackmd.io/v1/me   -H "Authorization: Bearer $HMD_TOKEN"
+# ── 3) Find the pad's 22-char API noteId (pick the line with your pad's title)
+/usr/bin/curl -s https://api.hackmd.io/v1/notes   -H "Authorization: Bearer $HMD_TOKEN" |   python3 -c "import json,sys
+for n in json.load(sys.stdin): print(n['id'], '|', n['title'])"
+# ── 4) Set the noteId (replace the placeholder, no quotes/brackets needed)
+export NOTE_ID=<22-char-id-from-step-3>
+# ── 5) Start the bridge (leave it running — this is your new T4)
+python3 ~/pad_bridge.py

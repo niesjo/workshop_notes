@@ -16,6 +16,8 @@ nelle@debian:~/demo$ ll
 bash: ll: command not found
 nelle@debian:~/demo$ ls
 
+nelle@debian:~/demo$ ls
+
 nelle@debian:~/demo$
 ```
 <!-- instructor:end -->
